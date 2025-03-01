@@ -1,5 +1,5 @@
 #!/bin/bash -e
-jpeg_ver=3.0.2
+jpeg_ver=3.1.0
 
 download () {
 	get_tar_archive libjpeg "https://github.com/libjpeg-turbo/libjpeg-turbo/releases/download/${jpeg_ver}/libjpeg-turbo-${jpeg_ver}.tar.gz"
