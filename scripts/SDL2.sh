@@ -1,4 +1,5 @@
 #!/bin/bash -e
+# NOTE: when changing this, the support code inside Luanti has to be updated too or it won't start!
 ver=2.32.0
 
 download () {

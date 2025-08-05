@@ -1,5 +1,5 @@
 #!/bin/bash -e
-ver=1.24.2
+ver=1.24.3
 
 download () {
 	get_tar_archive openal-soft "https://github.com/kcat/openal-soft/archive/refs/tags/${ver}.tar.gz"

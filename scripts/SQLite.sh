@@ -1,5 +1,5 @@
 #!/bin/bash -e
-ver=3490100
+ver=3500400
 
 download () {
 	get_tar_archive sqlite-autoconf "https://www.sqlite.org/2025/sqlite-autoconf-${ver}.tar.gz"

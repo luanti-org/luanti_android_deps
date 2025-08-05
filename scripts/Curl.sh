@@ -1,6 +1,6 @@
 #!/bin/bash -e
-mbedtls_ver=2.28.9
-curl_ver=8.12.1
+mbedtls_ver=2.28.10
+curl_ver=8.15.0
 
 download () {
 	get_tar_archive mbedtls "https://github.com/ARMmbed/mbedtls/archive/mbedtls-${mbedtls_ver}.tar.gz"
