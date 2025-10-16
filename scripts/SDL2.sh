@@ -1,6 +1,6 @@
 #!/bin/bash -e
 # NOTE: when changing this, the support code inside Luanti has to be updated too or it won't start!
-ver=2.32.0
+ver=2.32.10
 
 download () {
 	get_tar_archive sdl2 "https://github.com/libsdl-org/SDL/releases/download/release-${ver}/SDL2-${ver}.tar.gz"

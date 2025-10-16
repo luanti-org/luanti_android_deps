@@ -1,6 +1,6 @@
 #!/bin/bash -e
-ndk_version=r27d
-ndk_version_n=27.3.13750724
+ndk_version=r29
+ndk_version_n=29.0.14206865
 
 # Build tools and stuff
 sudo apt-get update
