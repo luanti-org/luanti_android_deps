@@ -1,5 +1,5 @@
 #!/bin/bash -e
-ver=2.13.3
+ver=2.14.1
 
 download () {
 	get_tar_archive freetype "https://sourceforge.net/projects/freetype/files/freetype2/${ver}/freetype-${ver}.tar.xz"

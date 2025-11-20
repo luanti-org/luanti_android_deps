@@ -1,9 +1,9 @@
 #!/bin/bash -e
-mbedtls_ver=2.28.10
-curl_ver=8.15.0
+mbedtls_ver=3.6.5
+curl_ver=8.17.0
 
 download () {
-	get_tar_archive mbedtls "https://github.com/ARMmbed/mbedtls/archive/mbedtls-${mbedtls_ver}.tar.gz"
+	get_tar_archive mbedtls "https://github.com/Mbed-TLS/mbedtls/releases/download/mbedtls-${mbedtls_ver}/mbedtls-${mbedtls_ver}.tar.bz2"
 	get_tar_archive curl "https://curl.se/download/curl-${curl_ver}.tar.gz"
 }
 
