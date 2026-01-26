@@ -43,7 +43,7 @@ jobs:
         ls -lh ../deps-lite.zip
 
     - name: Upload and tag
-      uses: pyTooling/Actions/releaser@main
+      uses: pyTooling/Actions/releaser@v6.7.0
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         tag: 'latest'
