@@ -1,5 +1,5 @@
 #!/bin/bash -e
-ogg_ver=1.3.5
+ogg_ver=1.3.6
 vorbis_ver=1.3.7
 
 download () {
