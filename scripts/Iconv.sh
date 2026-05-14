@@ -1,5 +1,5 @@
 #!/bin/bash -e
-ver=1.18
+ver=1.19
 
 download () {
 	get_tar_archive libiconv "https://ftp.gnu.org/gnu/libiconv/libiconv-${ver}.tar.gz"
