@@ -20,7 +20,7 @@ build () {
 	$srcdir/curl/configure --host=$CROSS_PREFIX \
 		--with-mbedtls="$mbedtls" --without-libpsl \
 		--disable-shared --enable-static --disable-{debug,verbose} \
-		--disable-{proxy,cookies,crypto-auth,manual,ares,ftp,unix-sockets} \
+		--disable-{cookies,docs,manual,ares,ftp,unix-sockets} \
 		--disable-{ldap,rtsp,dict,telnet,tftp,pop3,imap,smtp,gopher,mqtt}
 	make
 	make_install_copy
