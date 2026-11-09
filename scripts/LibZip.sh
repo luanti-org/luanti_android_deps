@@ -1,5 +1,5 @@
 #!/bin/bash -e
-ver=1.11.4
+ver=1.12.1
 
 download () {
 	get_tar_archive libzip "https://libzip.org/download/libzip-${ver}.tar.gz"
