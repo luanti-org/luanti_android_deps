@@ -1,5 +1,5 @@
 #!/bin/bash -e
-ver=1.5.7
+ver=1.6.0
 
 download () {
 	get_tar_archive zstd "https://github.com/facebook/zstd/releases/download/v${ver}/zstd-${ver}.tar.gz"
